@@ -23,7 +23,7 @@ Lógico:     https://app.brmodeloweb.com/#!/publicview/69df8f78e33b4dc332f94157
 
 -----------------------------------------------------------------------------------
 
-Veterinário
+VETERINÁRIO
 
 Conceitual: https://app.brmodeloweb.com/#!/publicview/69dfe41ae7f0a96088a466a3
 
