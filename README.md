@@ -17,3 +17,7 @@ FILMES(STREMTEC)
 Conceitual: https://app.brmodeloweb.com/#!/publicview/69df8f4fe33b4dc332f94132
 Lógico:     https://app.brmodeloweb.com/#!/publicview/69df8f78e33b4dc332f94157
 
+Veterinário
+
+Conceitual: https://app.brmodeloweb.com/#!/publicview/69dfe41ae7f0a96088a466a3
+Lógico:     https://app.brmodeloweb.com/#!/publicview/69dfe3fee7f0a96088a46698
