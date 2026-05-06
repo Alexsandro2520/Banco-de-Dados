@@ -28,3 +28,11 @@ VETERINÁRIO
 Conceitual: https://app.brmodeloweb.com/#!/publicview/69dfe41ae7f0a96088a466a3
 
 Lógico:     https://app.brmodeloweb.com/#!/publicview/69dfe3fee7f0a96088a46698
+
+-----------------------------------------------------------------------------------
+
+TATUAGEM
+
+Conceitual: https://app.brmodeloweb.com/#!/publicview/69fba5259ae9da5410795445
+
+Lógico: https://app.brmodeloweb.com/#!/publicview/69fba5809ae9da5410795458
