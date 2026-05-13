@@ -1,0 +1,51 @@
+CREATE TABLE senioridade 
+( 
+ idsenioridade INT PRIMARY KEY auto_increment,  
+ nome varchar(100) NOT NULL  
+); 
+
+CREATE TABLE cliente 
+( 
+ idcliente INT PRIMARY KEY auto_increment,  
+ estado varchar(100) NOT NULL,  
+ cidade varchar(100) NOT NULL,  
+ datacadastro DATE NOT NULL,  
+ cpf varchar(100) UNIQUE NOT NULL,  
+ nome varchar(100) NOT NULL,  
+ telefone varchar(100) NOT NULL
+); 
+
+CREATE TABLE tatuador 
+( 
+ idtatuador INT PRIMARY KEY auto_increment,  
+ datacontratacao date NOT NULL,  
+ cpf varchar(100) unique NOT NULL,  
+ nometatuador varchar(100) NOT NULL,  
+ telefone varchar(100) NOT NULL,  
+ idsenioridade INT NOT NULL,  
+ FOREIGN KEY(idsenioridade) REFERENCES senioridade (idsenioridade)
+); 
+
+CREATE TABLE agendamento 
+( 
+ idagendamento INT PRIMARY KEY auto_increment,  
+ idcliente INT NOT NULL,  
+ valortatuagem decimal(10,2) NOT NULL,  
+ dataagendamento date NOT NULL,  
+ status varchar(100) NOT NULL,  
+ descricaotatuagem text NOT NULL,  
+ horaagendamento varchar(100) NOT NULL,  
+ desenhoaprovado varchar(100) NOT NULL,  
+ idtatuador INT not null,  
+ FOREIGN KEY(idcliente) REFERENCES cliente (idcliente),
+ FOREIGN KEY(idtatuador) REFERENCES tatuador (idtatuador)
+); 
+
+CREATE TABLE estilo 
+( 
+ idestilo INT PRIMARY KEY auto_increment,  
+ idtatuador INT NOT NULL,  
+ estilo varchar(100) NOT NULL,  
+ dataestilo date NOT NULLl,  
+ FOREIGN KEY(idtatuador) REFERENCES tatuador (idtatuador) 
+);
